@@ -9,7 +9,7 @@ import dataverse_pb2 as service
 import dataverse_pb2_grpc as rpc
 from google.protobuf.json_format import MessageToJson
 
-ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', '.gif'}
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', '.gif','mp4','.mp4', 'mp3', '.mp3'}
 CHUNK_SIZE = 1024 * 1024  # decrease the value here to evaluate memory usage
 
 app = Flask(__name__)
